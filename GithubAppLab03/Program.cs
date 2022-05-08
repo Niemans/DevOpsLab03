@@ -19,7 +19,7 @@ namespace GithubAppLab03
             int[] d = { 16, 3, 0 };
             d[2] = Mathematics.Divide<int>(d[0], d[1]);
 
-            char e = Mathematics.Add<char>('a', 'b');
+            var e = Mathematics.Add<char>('a', 'b');
 
             Console.WriteLine($"{a[2]}  {s[2]}  {m[2]}  {d[2]}  {e == default}");
         }
