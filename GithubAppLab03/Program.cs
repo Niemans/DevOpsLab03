@@ -22,7 +22,7 @@ namespace GithubAppLab03
             var e = Mathematics.Add<char>('a', 'b');
 
             Console.WriteLine($"{a[2]}  {s[2]}  {m[2]}  {d[2]}  {e == default}");
-            Console.ReadKey(false);
+            System.Threading.Thread.Sleep(4000);
         }
     }
 }
